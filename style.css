@@ -5,4 +5,10 @@ html{
 }
 h1{
     color: aquamarine;
+    text-align: center;
+    transition: all 1s;
+}
+
+h1:hover {
+    transform: scale(1.5);
 }
