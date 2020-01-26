@@ -1,17 +1,16 @@
 /* Navigation Bar */
 
-.btn-outline-light:hover {
-    background-color: rgb(182, 182, 245);
+.navbar-light .navbar-brand {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.625rem;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
-/* Jumbotron */
-
-.jumbotron {
-    background-color: rgb(199, 199, 199);
+.nav-item {
+    margin: 0 1rem;
 }
 
-.my-4 {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0));
+.nav-item .nav-link {
+    text-transform: uppercase;
 }
